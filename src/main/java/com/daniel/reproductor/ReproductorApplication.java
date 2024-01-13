@@ -11,6 +11,7 @@ public class ReproductorApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ReproductorApplication.class.getResource("reproductor-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        stage.setResizable(false);
         stage.setTitle("Reproductor");
         stage.setScene(scene);
         stage.show();

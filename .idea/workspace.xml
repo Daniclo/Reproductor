@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/ReproductorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/BeepBox-Song.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/Tema-boss.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/Tema-mundo-1.wav" afterDir="false" />
+    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Project started">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/ReproductorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/ReproductorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +37,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/Reproductor/src/main/resources/media",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/Reproductor/src/main/resources/media&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\Reproductor\src\main\resources\media" />
@@ -99,8 +86,25 @@
       <workItem from="1704904478071" duration="1218000" />
       <workItem from="1704907146533" duration="504000" />
       <workItem from="1704907661117" duration="2259000" />
-      <workItem from="1704909953755" duration="5380000" />
+      <workItem from="1704909953755" duration="5832000" />
+      <workItem from="1704920352412" duration="3849000" />
+      <workItem from="1704982963659" duration="1680000" />
+      <workItem from="1705085821206" duration="39000" />
+      <workItem from="1705085946088" duration="2722000" />
+      <workItem from="1705100733219" duration="1575000" />
+      <workItem from="1705102475163" duration="25000" />
+      <workItem from="1705102508535" duration="22000" />
+      <workItem from="1705102539645" duration="8109000" />
     </task>
+    <task id="LOCAL-00001" summary="Project started">
+      <option name="closed" value="true" />
+      <created>1704915478970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704915478970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project started" />
   </component>
 </project>

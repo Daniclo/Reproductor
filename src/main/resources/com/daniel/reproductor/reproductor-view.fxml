@@ -15,18 +15,18 @@
                         <TextField id="tfSrc" fx:id="tfSrc" layoutX="76.0" layoutY="51.0" prefHeight="26.0" prefWidth="448.0" />
                         <Label id="labelSrc" layoutX="76.0" layoutY="33.0" text="Ruta:" />
                         <Button id="btReproducir" layoutX="78.0" layoutY="105.0" mnemonicParsing="false" onAction="#playAudio" text="Reproducir" />
-                        <Button layoutX="524.0" layoutY="52.0" mnemonicParsing="false" onAction="#getFile" prefHeight="26.0" prefWidth="32.0" />
+                        <Button layoutX="524.0" layoutY="51.0" mnemonicParsing="false" onAction="#getFile" prefHeight="26.0" prefWidth="32.0" AnchorPane.leftAnchor="524.0" />
                         <Button layoutX="152.0" layoutY="105.0" mnemonicParsing="false" onAction="#stopAudio" text="Stop" />
                         <Button layoutX="193.0" layoutY="105.0" mnemonicParsing="false" onAction="#previousAudio" text="Anterior" />
                         <Button layoutX="251.0" layoutY="105.0" mnemonicParsing="false" onAction="#nextAudio" text="Siguiente" />
-                        <Slider fx:id="slVolume" layoutX="322.0" layoutY="110.0" max="200.0" prefHeight="14.0" prefWidth="180.0" value="100.0" />
+                        <Slider fx:id="slVolume" layoutX="322.0" layoutY="110.0" max="200.0" prefHeight="14.0" prefWidth="236.0" value="100.0" />
                         <Label fx:id="lbNombre" layoutX="176.0" layoutY="162.0" prefHeight="62.0" prefWidth="247.0" text="Esperando para reproducir una canción" textAlignment="CENTER">
                            <font>
                               <Font size="14.0" />
                            </font>
                         </Label>
                         <ProgressBar fx:id="songProgress" layoutX="200.0" layoutY="215.0" prefWidth="200.0" progress="0.0" />
-                        <CheckBox fx:id="cbBucle" layoutX="514.0" layoutY="109.0" mnemonicParsing="false" text="Bucle" />
+                        <Button layoutX="38.0" layoutY="277.0" mnemonicParsing="false" onAction="#showControls" text="Button" />
                      </children></AnchorPane>
             </content>
           </Tab>
@@ -35,6 +35,31 @@
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
             </content>
           </Tab>
+            <Tab text="Producir">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                </content>
+            </Tab>
+            <Tab text="Publicar">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                </content>
+            </Tab>
+            <Tab text="Ajustes">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ChoiceBox fx:id="cbDispositivosSalida" layoutX="37.0" layoutY="57.0" prefHeight="25.0" prefWidth="467.0" />
+                        <Label layoutX="37.0" layoutY="23.0" text="Selecciona dispositivo de salida:" />
+                        <Label layoutX="36.0" layoutY="278.0" text="Selecciona puerto de entrada:" />
+                        <ChoiceBox fx:id="cbLineaEntrada" layoutX="36.0" layoutY="309.0" prefHeight="25.0" prefWidth="470.0" />
+                        <ChoiceBox fx:id="cbDispositivoEntrada" layoutX="37.0" layoutY="137.0" prefHeight="25.0" prefWidth="468.0" />
+                        <Label layoutX="38.0" layoutY="109.0" text="Selecciona dispositivo de entrada:" />
+                        <Label layoutX="37.0" layoutY="214.0" text="Selecciona puerto de salida:" />
+                        <ChoiceBox fx:id="cbLineaSalida" layoutX="37.0" layoutY="241.0" prefHeight="25.0" prefWidth="469.0" />
+                     </children></AnchorPane>
+                </content>
+            </Tab>
         </tabs>
       </TabPane>
    </children>
