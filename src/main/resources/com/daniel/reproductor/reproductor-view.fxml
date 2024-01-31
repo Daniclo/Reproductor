@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.daniel.reproductor.controller.ReproductorController">
@@ -32,7 +33,18 @@
           </Tab>
           <Tab text="Grabar">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="74.0" layoutY="40.0" text="Ruta:" />
+                        <TextField fx:id="tfSrcRecord" layoutX="74.0" layoutY="58.0" prefHeight="26.0" prefWidth="408.0" />
+                        <Button layoutX="483.0" layoutY="58.0" mnemonicParsing="false" onAction="#getTargetDirectory" prefHeight="26.0" prefWidth="32.0" />
+                        <Label layoutX="74.0" layoutY="103.0" text="Nombre:" />
+                        <TextField fx:id="tfNombre" layoutX="129.0" layoutY="99.0" prefHeight="26.0" prefWidth="353.0" />
+                        <Button layoutX="171.0" layoutY="177.0" mnemonicParsing="false" onAction="#startRecording" prefHeight="42.0" prefWidth="48.0" />
+                        <Button layoutX="328.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#stopRecording" prefHeight="44.0" prefWidth="47.0" />
+                        <Circle fill="RED" layoutX="195.0" layoutY="199.0" onMouseClicked="#startRecording" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="32.0" layoutX="336.0" layoutY="183.0" onMouseClicked="#stopRecording" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                     </children></AnchorPane>
             </content>
           </Tab>
             <Tab text="Producir">

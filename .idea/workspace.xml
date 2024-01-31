@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Project started">
+    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Progreso en la pestaña reproducir">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/dsjadljsajdnbsa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/pruebamicroportatil.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/pruebasindrain.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/ReproductorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/ReproductorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" afterDir="false" />
@@ -27,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -39,15 +44,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/Reproductor/src/main/resources/media&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -74,6 +84,14 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,7 +112,24 @@
       <workItem from="1705100733219" duration="1575000" />
       <workItem from="1705102475163" duration="25000" />
       <workItem from="1705102508535" duration="22000" />
-      <workItem from="1705102539645" duration="8109000" />
+      <workItem from="1705102539645" duration="8253000" />
+      <workItem from="1705229529042" duration="421000" />
+      <workItem from="1705339261889" duration="3000" />
+      <workItem from="1705407365931" duration="253000" />
+      <workItem from="1705428955842" duration="254000" />
+      <workItem from="1705433964274" duration="379000" />
+      <workItem from="1705441333129" duration="1348000" />
+      <workItem from="1705501006241" duration="119000" />
+      <workItem from="1705520767804" duration="8000" />
+      <workItem from="1705574483888" duration="212000" />
+      <workItem from="1705691008307" duration="1266000" />
+      <workItem from="1705944374751" duration="9000" />
+      <workItem from="1706713761309" duration="112000" />
+      <workItem from="1706716987441" duration="2695000" />
+      <workItem from="1706724963607" duration="1294000" />
+      <workItem from="1706726265895" duration="3955000" />
+      <workItem from="1706733783417" duration="3798000" />
+      <workItem from="1706739625189" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <option name="closed" value="true" />
@@ -104,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704915478970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Progreso en la pestaña reproducir">
+      <option name="closed" value="true" />
+      <created>1705111229453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705111229453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +165,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project started" />
+    <MESSAGE value="Progreso en la pestaña reproducir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progreso en la pestaña reproducir" />
   </component>
 </project>

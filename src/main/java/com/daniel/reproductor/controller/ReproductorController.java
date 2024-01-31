@@ -19,6 +19,7 @@ import java.util.ResourceBundle;
 public class ReproductorController implements Initializable {
 
     //Reproducir
+    //Cosas de la pestaña reproducir
     private final FileChooser fileChooser = new FileChooser();
     @FXML
     private Label lbNombre;
@@ -39,6 +40,7 @@ public class ReproductorController implements Initializable {
     }
     @FXML
     void getFile(){
+        songs = new ArrayList<>();
         songs = fileChooser.showOpenMultipleDialog(new Stage());
         if (songs != null){
             if (songs.size() == 1){
@@ -59,10 +61,11 @@ public class ReproductorController implements Initializable {
         Thread t = new Thread(() -> {
             try {
                 audioPlayer.playSound(songs.get(actualSong), cbLineaSalida.getValue(), audioPlayer.getDispositivo(cbDispositivosSalida.getValue()));
-            } catch (IOException | UnsupportedAudioFileException | LineUnavailableException | InterruptedException e) {
+            } catch (IOException | UnsupportedAudioFileException | LineUnavailableException | InterruptedException | IllegalArgumentException e) {
                 System.err.println(e.getMessage());
             }
         });
+        t.setDaemon(true);
         t.start();
     }
     @FXML
@@ -86,6 +89,37 @@ public class ReproductorController implements Initializable {
 
     //Grabar
     //Cosas de la pestaña grabar
+    File carpetaDestino;
+    @FXML
+    TextField tfSrcRecord;
+    @FXML
+    TextField tfNombre;
+    @FXML
+    void startRecording(){
+        if (audioPlayer.isPlaying()){
+            audioPlayer.stopSound();
+        }
+        try {
+            audioRecorder.recordSound(cbLineaEntrada.getValue(),audioPlayer.getDispositivo(cbDispositivoEntrada.getValue()),
+                    tfSrcRecord.getText(),tfNombre.getText());
+        } catch (LineUnavailableException | IOException | UnsupportedAudioFileException | IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+        }
+    }
+    @FXML
+    void stopRecording(){
+        System.out.println("Fin grabación");
+        audioRecorder.lineaEntrada.stop();
+        audioRecorder.lineaEntrada.close();
+    }
+    @FXML
+    void getTargetDirectory(){
+        carpetaDestino = new File("");
+        carpetaDestino = fileChooser.showOpenDialog(new Stage());
+        if (carpetaDestino != null){
+            tfSrcRecord.setText(carpetaDestino.getAbsolutePath());
+        }
+    }
 
     //Producir
     //Cosas de la pestaña producir
