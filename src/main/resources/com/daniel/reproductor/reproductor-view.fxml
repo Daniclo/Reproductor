@@ -27,7 +27,7 @@
                            </font>
                         </Label>
                         <ProgressBar fx:id="songProgress" layoutX="200.0" layoutY="215.0" prefWidth="200.0" progress="0.0" />
-                        <Button layoutX="38.0" layoutY="277.0" mnemonicParsing="false" onAction="#showControls" text="Button" />
+                        <Button layoutX="38.0" layoutY="277.0" mnemonicParsing="false" onAction="#showControls" text="Pruebas" />
                      </children></AnchorPane>
             </content>
           </Tab>

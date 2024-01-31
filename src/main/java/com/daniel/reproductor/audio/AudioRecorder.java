@@ -18,7 +18,7 @@ public class AudioRecorder {
 
         lineaEntrada.start();
         AudioInputStream recordingStream = new AudioInputStream(lineaEntrada);
-        File fileOut = new File(ruta + nombre + ".wav");
+        File fileOut = new File(ruta + "\\" + nombre + ".wav");
         AudioFileFormat.Type fileType = AudioFileFormat.Type.WAVE;
         if (!AudioSystem.isFileTypeSupported(fileType,recordingStream)){
             System.err.println("Unsupported file type");

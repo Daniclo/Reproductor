@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Progreso en la pestaña reproducir">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/dsjadljsajdnbsa.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/pruebamicroportatil.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/pruebasindrain.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Se puede grabar y escuchar">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/pruebanombresytal.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" afterDir="false" />
@@ -129,7 +127,8 @@
       <workItem from="1706724963607" duration="1294000" />
       <workItem from="1706726265895" duration="3955000" />
       <workItem from="1706733783417" duration="3798000" />
-      <workItem from="1706739625189" duration="1431000" />
+      <workItem from="1706739625189" duration="2494000" />
+      <workItem from="1706742406112" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <option name="closed" value="true" />
@@ -147,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705111229453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se puede grabar y escuchar">
+      <option name="closed" value="true" />
+      <created>1706741157221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706741157221</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project started" />
     <MESSAGE value="Progreso en la pestaña reproducir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progreso en la pestaña reproducir" />
+    <MESSAGE value="Se puede grabar y escuchar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se puede grabar y escuchar" />
   </component>
 </project>

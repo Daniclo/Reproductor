@@ -12,7 +12,7 @@ public class AudioPlayer {
     private Clip lineaSalidaClip;
     private SourceDataLine lineaSalidaSDL;
 
-    public void playSound(File file, Line.Info info, Mixer dispositivo) throws IOException, UnsupportedAudioFileException, LineUnavailableException, InterruptedException {
+    public void playSoundByClip(File file, Line.Info info, Mixer dispositivo) throws IOException, UnsupportedAudioFileException, LineUnavailableException, InterruptedException {
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
         dispositivoSalida = dispositivo;
         lineaSalidaClip = (Clip) dispositivoSalida.getLine(info);
@@ -22,13 +22,25 @@ public class AudioPlayer {
         lineaSalidaClip.close();
         audioStream.close();
     }
+    public void playSoundBySourceDataLine(File file,Line.Info info, Mixer dispositivo) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
+        AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
+        dispositivoSalida = dispositivo;
+        lineaSalidaSDL = (SourceDataLine) dispositivoSalida.getLine(info);
+        lineaSalidaSDL.open(audioStream.getFormat());
+        lineaSalidaSDL.start();
+        lineaSalidaSDL.write(audioStream.readAllBytes(),0,audioStream.readAllBytes().length);
+    }
     public void stopSound(){
         if (lineaSalidaClip != null){
             lineaSalidaClip.close();
         }
+        if (lineaSalidaSDL != null){
+            lineaSalidaSDL.close();
+        }
     }
     public boolean isPlaying(){
         if (lineaSalidaClip != null) return lineaSalidaClip.isOpen();
+        else if (lineaSalidaSDL != null) return lineaSalidaSDL.isOpen();
         else return false;
     }
     public void pruebas(){

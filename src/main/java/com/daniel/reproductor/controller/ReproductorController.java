@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.stage.FileChooser;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
 import javax.sound.sampled.*;
@@ -60,7 +61,7 @@ public class ReproductorController implements Initializable {
         }
         Thread t = new Thread(() -> {
             try {
-                audioPlayer.playSound(songs.get(actualSong), cbLineaSalida.getValue(), audioPlayer.getDispositivo(cbDispositivosSalida.getValue()));
+                audioPlayer.playSoundByClip(songs.get(actualSong), cbLineaSalida.getValue(), audioPlayer.getDispositivo(cbDispositivosSalida.getValue()));
             } catch (IOException | UnsupportedAudioFileException | LineUnavailableException | InterruptedException | IllegalArgumentException e) {
                 System.err.println(e.getMessage());
             }
@@ -89,6 +90,7 @@ public class ReproductorController implements Initializable {
 
     //Grabar
     //Cosas de la pestaña grabar
+    private final DirectoryChooser directoryChooser = new DirectoryChooser();
     File carpetaDestino;
     @FXML
     TextField tfSrcRecord;
@@ -115,7 +117,7 @@ public class ReproductorController implements Initializable {
     @FXML
     void getTargetDirectory(){
         carpetaDestino = new File("");
-        carpetaDestino = fileChooser.showOpenDialog(new Stage());
+        carpetaDestino = directoryChooser.showDialog(new Stage());
         if (carpetaDestino != null){
             tfSrcRecord.setText(carpetaDestino.getAbsolutePath());
         }
@@ -150,6 +152,7 @@ public class ReproductorController implements Initializable {
         songs = new ArrayList<>();
         songs.add(new File("src/main/resources/media/BeepBox-Song.wav"));
         fileChooser.setInitialDirectory(new File("src/main/resources/media"));
+        directoryChooser.setInitialDirectory(new File("src/main/resources/media"));
         cbDispositivosSalida.getItems().addAll(audioPlayer.getDispositivos());
         cbDispositivosSalida.setOnAction(t -> updateSourceLines());
         cbDispositivoEntrada.getItems().addAll(audioPlayer.getDispositivos());
