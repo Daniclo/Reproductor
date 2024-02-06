@@ -1,11 +1,8 @@
 package com.daniel.reproductor.audio;
 
 import javax.sound.sampled.*;
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
-import java.util.Arrays;
+import java.io.File;
+import java.io.IOException;
 
 public class AudioRecorder {
     private Mixer dispositivoEntrada;

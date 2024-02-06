@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Se puede grabar y escuchar">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/pruebanombresytal.wav" afterDir="false" />
+    <list default="true" id="c73e224b-5f39-49d2-b3a5-9c94f6457347" name="Changes" comment="Se puede grabar y escuchar mejor">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/GrabacionDavid.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/GrabacionToGuapa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/PruebaIncreible.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/recorded/PruebaIngles.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/audio/AudioRecorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/reproductor/controller/ReproductorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/daniel/reproductor/reproductor-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,15 @@
       <workItem from="1706726265895" duration="3955000" />
       <workItem from="1706733783417" duration="3798000" />
       <workItem from="1706739625189" duration="2494000" />
-      <workItem from="1706742406112" duration="1352000" />
+      <workItem from="1706742406112" duration="1375000" />
+      <workItem from="1706780839696" duration="643000" />
+      <workItem from="1706797907837" duration="732000" />
+      <workItem from="1706824062625" duration="162000" />
+      <workItem from="1706870658330" duration="1383000" />
+      <workItem from="1706886732528" duration="2719000" />
+      <workItem from="1706894477639" duration="37000" />
+      <workItem from="1707128182066" duration="284000" />
+      <workItem from="1707153552288" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <option name="closed" value="true" />
@@ -154,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706741157221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se puede grabar y escuchar mejor">
+      <option name="closed" value="true" />
+      <created>1706743779827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706743779827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +192,7 @@
     <MESSAGE value="Project started" />
     <MESSAGE value="Progreso en la pestaña reproducir" />
     <MESSAGE value="Se puede grabar y escuchar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se puede grabar y escuchar" />
+    <MESSAGE value="Se puede grabar y escuchar mejor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se puede grabar y escuchar mejor" />
   </component>
 </project>
